@@ -1,0 +1,26 @@
+{
+  "name": "dir",
+  "version": "a",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production ./webpack.config.js",
+    "start": "node dist/src/index.js"
+  },
+  "dependencies": {
+    "@types/hapi": "^17.0.18",
+    "@types/node": "^10.9.2",
+    "@types/react": "^16.4.12",
+    "@types/react-dom": "^16.0.7",
+    "hapi": "^17.5.4",
+    "inert": "^5.1.0",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0"
+  }
+}
